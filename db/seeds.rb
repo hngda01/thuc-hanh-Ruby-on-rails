@@ -1,6 +1,8 @@
 User.create!(name:  "Example User",
              email: "example@railstutorial.org",
              password:              "foobar",
+             activated: true,
+             activated_at: Time.zone.now),
              password_confirmation: "foobar")
 
 99.times do |n|
